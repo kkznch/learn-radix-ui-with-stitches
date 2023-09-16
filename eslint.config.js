@@ -3,10 +3,10 @@ import typescriptParser from '@typescript-eslint/parser';
 import pluginPrettier from 'eslint-config-prettier';
 import pluginImport from 'eslint-plugin-import';
 import pluginReact from 'eslint-plugin-react';
+import reactConfigJsxRuntime from 'eslint-plugin-react/configs/jsx-runtime.js';
 import reactConfigRecommended from 'eslint-plugin-react/configs/recommended.js';
 import pluginReactHooks from 'eslint-plugin-react-hooks';
 import pluginUnusedImport from 'eslint-plugin-unused-imports';
-import reactConfigJsxRuntime from 'eslint-plugin-react/configs/jsx-runtime.js';
 
 export default [
   {
