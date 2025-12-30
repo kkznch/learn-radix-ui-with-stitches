@@ -1,11 +1,12 @@
 import type { FC } from 'react';
-import { styled } from '@stitches/react';
+import { styled } from './theme';
 
 const Button = styled('button', {
-  backgroundColor: 'Gainsboro',
+  backgroundColor: '$forest-200',
   borderRadius: '9999px',
   fontSize: '13px',
   padding: '10px 15px',
+  marginX: '120px',
   '&:hover': {
     backgroundColor: 'LightGray',
   },
